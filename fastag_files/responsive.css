@@ -1,0 +1,59 @@
+/*all big screens*/
+@media (min-width: 1400px){
+    
+}
+
+/*all desktops*/
+@media (min-width: 1300px){
+    .container{width: 1200px;}
+}
+
+/*all small devices*/
+@media (min-width: 1200px){
+    
+}
+/*ipad - both*/
+@media (min-width: 768px) and (max-width: 1024px){
+    .smartlink span, h2{font-size:20px;} .banner-section>img{max-width:none;width: auto;}
+    .navbar-header{width: 20%;} .navbar .container{width:100%;}
+}
+/*ipad - landscape*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+    .navbar-default .navbar-nav>li>a{font-size: 14px;padding:24px 10px;}
+    .navbar-default .navbar-nav>li.double a{padding: 14px 10px;}
+    .hows{width: 95%;} .hows::after{right: -32px;} .foot_links li.dash {padding: 20px 3px;} .banner_content{padding:10px 20px;min-width: 60%;}
+}
+/*ipad - portrait*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+    .navbar-default .navbar-nav>li>a{font-size: 11px;padding: 18px 15px;min-height: 59px;} body{padding-top:59px;} .navbar-brand{width: 150px;}.navbar{min-height: 59px;} .banner_content{padding:10px 20px;min-width: 80%;}
+    .hows{width: 100%; margin-bottom:60px;} .hows::after{background:url(../images/darrow.png) no-repeat; width:36px; height:18px;bottom: -40px; right:0; left:50%; margin-left:-18px; top: auto;} .how-section {padding: 20px;} .footer{text-align: center;} .copy{text-align: center;} .contactus .subs{width:42%;}
+    .nav>li.double a {padding: 8px 10px } 
+}
+/*all mobiles & small tabs*/
+@media (max-width: 767px){
+    .vmobile{display: block;} .vdesc{display: none;} body{padding-top: 55px;}
+    .navbar-brand{padding:10px; max-width: 220px;}.navbar{min-height: 55px;}
+    .navbar-default .navbar-nav>li>a {padding: 10px 25px;} h4{font-size:18px; margin-bottom:15px;} .navbar-default .navbar-collapse, .navbar-default .navbar-form{border-bottom:2px solid #114c8d;}h2{font-size: 20px;}.tabs .nav-tabs.nav-justified {display: none;}.blue_banner .banner_content{max-width: 90%;border-bottom:0;}.tabs .tabSelect {display: block;}  .banner_content{padding:20px; position: static;border-bottom: 1px solid #d7dfe3;} .btn_holder .btn{font-size: 11px;padding:10px;} img.inline {float: none;margin: 0 auto 15px;display: block;} .hows{width: 100%; margin-bottom:60px;} .hows::after{background:url(../images/darrow.png) no-repeat; width:36px; height:18px;bottom: -40px; right:0; left:50%; margin-left:-18px; top: auto;} .how-section {padding: 20px;} .content{padding-bottom:20px;}.smartlink span{
+    font-size: 22px;} p br{display:none;}.how-section .col-md-4:last-child .hows{margin-bottom:0;} .foot_links{float:left;width:50%;} .foot_links li.vdesc{display:none;} .foot_links li{display: block; padding: 10px 0;}.foot_links li.dash{display:none}.footer{font-size:12px;}.copy{text-align:center;}.subHead {
+    font-size: 18px;}.faqContent .faq a{font-size: 16px;} .form-control{margin-bottom:10px}.navbar-default .navbar-nav>li.active>a, .navbar-default .navbar-nav>li>a:hover{border-bottom-color: #fff;} .useful-section.clean .useful td:nth-child(1) {width: 18%;padding-right: 4%;}.useful-section.clean .useful td:nth-child(2) {width: 78%}.useful h4{padding-bottom:0;} .tab-content>.tab-pane {padding:0;} .contactus .subs{width:100%;padding:10px 0;}.numbers{margin-bottom:10px;} /*.numbers{width:auto;}*/
+    .raodsideBanner div{display:block; width:100%; clear:both;}
+    .raodsideBanner div img{ text-align:center} .navbar-nav>li>a br{display:none;}
+    .assistantTxt{ display:inline-block;width:100%; text-align:center; padding-bottom:20px;}
+    .fll{float:none} .navbar-default .navbar-nav>li>a {font-size: 14px;padding: 10px; min-height:0;} .nav>li.double a { padding:10px;} .mob50p{width:45%; margin: 0 2% !important;} .mob100p{width:100%;}.btn_holder{text-align: center;}.box-benefits div p{height:auto;}
+}
+/*small tabs*/
+@media (min-width: 600px) and (max-width: 767px){
+    
+}
+/*mobile*/
+@media (max-width: 580px){
+    
+}
+
+@media (max-width: 427px){
+    .btn_holder .btn:last-child{margin-top: 10px}
+}
+
+@media (max-width: 272px){
+    .mdl_btn{margin-top: 10px}
+}
